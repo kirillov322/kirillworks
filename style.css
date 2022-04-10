@@ -108,10 +108,10 @@ a:hover {
   .menu {
     display: block;
     width: 96%;
-    margin: 16px auto 60px auto;
+    margin: 20px auto 60px auto;
   }
   .work, .after-work {
-    margin-right: 1rem;
+    margin-right: 1.2rem;
   }
   .logo {
     display: block;
