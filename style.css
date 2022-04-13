@@ -267,15 +267,14 @@ h1 {
 }
 @media screen and (max-width: 700px) {
   .first {
-    min-height: 85vh;
-    max-height: 90vh;
+    min-height: 100%;
+    max-height: 100%;
     display: flex;
-    flex-direction: column;
+    position: relative;
   }
   .header {
-    display: block;
     text-align: center;
-    max-width: 90vw;
+    margin: 35% auto 16px auto;
   }
   h1 {
     font-size: 2.775rem;
@@ -283,21 +282,33 @@ h1 {
     line-height: 2.775rem;
     letter-spacing: -0.1rem;
     color: black;
-
+    padding-bottom: 50vh;
     }
   .info {
+    width: 96%;
     font-size: 1.1rem;
     line-height: 1.45rem;
     letter-spacing: -0.03rem;
-    margin: 24px auto 32px auto;
-    max-width: 90vw;
+    text-align: left;
+    margin: auto auto 8px auto;
     }
+  .role {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 40px;
+  }
   .formal {
-    max-width: 90vw;
+    margin: auto;
+    max-width: 96%;
     font-size: 1rem;
     line-height: 1.4rem;
     letter-spacing: -0.02rem;
+    text-align: left;
     }
+  .case {
+    position: relative;
+  }  
   .case-columns p {
     font-size: 1rem;
     line-height: 1.45rem;
@@ -321,6 +332,12 @@ h1 {
     max-width: 100%;
     margin: auto;
   }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    text-align: center;
+    margin: 46% auto 16px auto;
+}
 }
 /*img*/
 .case {
