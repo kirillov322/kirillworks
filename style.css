@@ -180,3 +180,198 @@ h4 {
   color: #C0C0C0;
   margin: 0px 0px 16px 0px;
 }
+
+/*project*/
+/*title*/
+.first {
+  min-height: 70vh;
+  max-height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  max-width: 705px;
+}
+.header h1 {
+  max-width: 600px;
+}
+h1 {
+  font-size: 4.375rem;
+  font-weight: 600;
+  line-height: 4.375rem;
+  letter-spacing: -0.175rem;
+  color: black;
+  margin: auto;
+}
+.info {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #202020;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+  margin: 32px auto 24px auto;
+}
+.role {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  padding-bottom: 10px;
+}
+.formal {
+  margin: auto;
+  align-self: end;
+  max-width: 550px;
+  font-size: 1.13rem;
+  line-height: 1.65rem;
+  font-weight: 300;
+  color: #515151;
+  letter-spacing: -0.03rem;
+  text-align: center;
+}
+.name {
+  color: #202020;
+  font-weight: 500;
+}
+@media screen and (max-width: 1025px), (max-height: 680px) {
+  h1 {
+  font-size: 3.775rem;
+  font-weight: 600;
+  line-height: 3.775rem;
+  letter-spacing: -0.1rem;
+  color: black;
+  }
+  .header h1 {
+    max-width: 500px;
+  }
+  .info {
+    font-size: 1.35rem;
+    line-height: 1.82rem;
+    letter-spacing: -0.03rem;
+    margin: 24px auto 32px auto;
+    width: 660px;
+  }
+  .formal {
+    max-width: 510px;
+    font-size: 1.05rem;
+    line-height: 1.55rem;
+    letter-spacing: -0.02rem;
+}
+  .case-columns p {
+    font-size: 1.05rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.02rem;
+} 
+}
+@media screen and (max-width: 700px) {
+  .first {
+    min-height: 70vh;
+    max-height: 75vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    display: block;
+    text-align: center;
+    max-width: 90vw;
+  }
+  h1 {
+    font-size: 2.775rem;
+    font-weight: 600;
+    line-height: 2.775rem;
+    letter-spacing: -0.1rem;
+    color: black;
+    }
+    .info {
+      font-size: 1.1rem;
+      line-height: 1.45rem;
+      letter-spacing: -0.03rem;
+      margin: 24px auto 32px auto;
+      max-width: 90vw;
+    }
+    .formal {
+      max-width: 90vw;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      letter-spacing: -0.02rem;
+    }
+    .case-columns p {
+      font-size: 1rem;
+      line-height: 1.45rem;
+      letter-spacing: -0.02rem;
+    }
+    .case-columns {
+      display: flex;
+      flex-direction: column;
+      width: 96%;
+      margin: auto;
+  }
+    .case-columns-1 {
+      min-width: 100%;
+      margin: auto auto 4vw auto;
+  }
+    .case-columns-2 {
+      min-width: 100%;
+      margin: auto auto 4vw auto;
+  }
+    .column-img {
+      max-width: 100%;
+      margin: auto;
+  }
+}
+/*img*/
+.case {
+  width: 96%;
+  display: block;
+  margin: 2vw auto;
+}
+.case-columns {
+  display: flex;
+  width: 96%;
+  margin: auto;
+}
+.case-columns-1 {
+  position: relative;
+  max-width: 50%;
+  margin-right: 2vw;
+}
+.case-columns-2 {
+  position: relative;
+  max-width: 50%;
+}
+.column-img {
+  max-width: 100%;
+  margin: auto auto 0.2vw auto;
+}
+.case-columns p {
+  font-size: 1.13rem;
+  line-height: 1.35rem;
+  margin: auto auto 0.5vw auto;
+  letter-spacing: -0.03rem;
+  color: #505050;
+}
+.previous {
+  display: block;
+  width: 96%;
+  margin: 120px auto auto;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  margin: 10vw auto auto auto;
+}
+
+/*link*/
+.card-link:hover h5 {
+  color: black;
+  transition-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  }
+.card-link:hover .work-type {
+    color: #aaaaaa;
+    transition-duration: 300ms;
+    animation-timing-function: ease-in-out;
+}
