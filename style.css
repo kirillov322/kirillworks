@@ -267,45 +267,45 @@ h1 {
 }
 @media screen and (max-width: 700px) {
   .first {
+    display: flex;
     min-height: 100%;
     max-height: 100%;
-    display: flex;
-    position: relative;
   }
   .header {
-    text-align: center;
-    margin: 35% auto 16px auto;
+    text-align: left;
+    margin: 32% auto auto auto;
+    display: flex;
+    flex-direction: column;
   }
+  .header h1 {
+    max-width: 100%;
+  } 
   h1 {
-    font-size: 2.775rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    line-height: 2.775rem;
+    line-height: 2.5rem;
     letter-spacing: -0.1rem;
+    text-align: center;
     color: black;
-    padding-bottom: 50vh;
+    width: 96%;
+    margin-bottom: 32%;
     }
   .info {
     width: 96%;
-    font-size: 1.1rem;
-    line-height: 1.45rem;
+    font-size: 1.2rem;
+    line-height: 1.55rem;
     letter-spacing: -0.03rem;
     text-align: left;
-    margin: auto auto 8px auto;
+    margin-bottom: 24px;
     }
-  .role {
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    padding-bottom: 40px;
-  }
   .formal {
-    margin: auto;
+    margin: auto auto 32px auto;
     max-width: 96%;
     font-size: 1rem;
     line-height: 1.4rem;
     letter-spacing: -0.02rem;
     text-align: left;
-    }
+  }
   .case {
     position: relative;
   }  
@@ -332,12 +332,6 @@ h1 {
     max-width: 100%;
     margin: auto;
   }
-}
-@media screen and (max-width: 500px) {
-  .header {
-    text-align: center;
-    margin: 46% auto 16px auto;
-}
 }
 /*img*/
 .case {
