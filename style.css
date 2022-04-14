@@ -25,7 +25,7 @@ html {
   justify-content: flex-end;
   margin: auto;
 }
-.work, .after-work {
+.work {
   margin-right: 1.5rem;
 }
 h6 {
@@ -35,23 +35,13 @@ h6 {
   margin: auto;
   letter-spacing: -0.03rem;
 }
-li {
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  font-weight: 400;
-  list-style-type: none;
-  letter-spacing: -0.03rem;
-}
-#work {
-  text-decoration: underline;
-  color: black;
-  text-underline-offset: 0.25rem;
-  font-weight: 500;
-}
-a {
+a, .work, .about {
   color: black;
   text-decoration: none;
   font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.03rem;
 }
 a:hover {
   color: #9B9B9B;
@@ -97,21 +87,21 @@ a:hover {
     width: 96%;
     margin: 24px auto 60px auto;
   }
-  .work, .after-work {
+  .work {
     margin-right: 1.1rem;
   }
-  h6, li {
+  .logo, li {
     font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 500px) {
   .menu {
-    display: block;
+    display: flex;
     width: 96%;
     margin: 20px auto 60px auto;
   }
-  .work, .after-work {
-    margin-right: 1.2rem;
+  .work {
+    margin-right: 0.9rem;
   }
   .logo {
     display: block;
@@ -120,8 +110,7 @@ a:hover {
   }
   .list {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 16px;
+    justify-content: flex-end;
     padding-left: 0;
   }
   .project-1 img, .project-2 img {
@@ -129,9 +118,7 @@ a:hover {
     height: 85vw;
     margin-bottom: 4px;
   }
-  h6, li {
-    font-size: 1.5rem;
-  }
+
 /*main*/
 }
 .project-1 {
