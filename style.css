@@ -296,24 +296,19 @@ h1 {
     line-height: 1.57rem;
     letter-spacing: -0.03rem;
     text-align: left;
-    margin-bottom: 24px;
+    margin-bottom:20px;
     }
   .formal {
-    margin: auto auto 32px auto;
+    margin: auto auto 40px auto;
     max-width: 96%;
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 1.45rem;
     letter-spacing: -0.02rem;
     text-align: left;
   }
   .case {
     position: relative;
   }  
-  .case-columns p {
-    font-size: 1rem;
-    line-height: 1.45rem;
-    letter-spacing: -0.02rem;
-    }
   .case-columns {
     display: flex;
     flex-direction: column;
@@ -362,7 +357,7 @@ h1 {
   line-height: 1.25rem;
   margin: auto auto 0.5vw auto;
   letter-spacing: -0.03rem;
-  color: #505050;
+  color: #595959;
 }
 .previous {
   display: block;
