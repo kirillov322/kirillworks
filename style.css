@@ -283,15 +283,20 @@ h1 {
     line-height: 1.57rem;
     letter-spacing: -0.03rem;
     text-align: left;
-    margin-bottom: 42px;
+    margin-bottom: 24px;
     }
   .formal {
-    margin: auto auto 34px auto;
-    max-width: 96%;
+    margin: auto auto 64px auto;
     font-size: 1rem;
     line-height: 1.45rem;
     letter-spacing: -0.02rem;
     text-align: left;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .role {
+    width: 96%;
+    margin: auto;
   }
   .case {
     position: relative;
