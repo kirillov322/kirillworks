@@ -299,8 +299,8 @@ h1 {
     margin: auto;
   }
   .case {
-    position: relative;
-  }  
+    padding-bottom: 2vw;
+  }
   .case-columns {
     display: flex;
     flex-direction: column;
@@ -329,6 +329,12 @@ h1 {
   display: block;
   margin: 2vw auto;
 }
+video {
+  width: 100%;
+}
+.row-img {
+  margin: auto auto 0.2vw auto; 
+}
 .case-columns {
   display: flex;
   width: 96%;
@@ -347,23 +353,22 @@ h1 {
   max-width: 100%;
   margin: auto auto 0.2vw auto;
 }
+.caption {
+  font-size: 1.05rem;
+  line-height: 1.25rem;
+  margin: 0.2vw auto 2vw auto;
+  letter-spacing: -0.03rem;
+  color: #7f7f7f;
+}
 .case-columns p {
   font-size: 1.05rem;
   line-height: 1.25rem;
   margin: auto auto 0.5vw auto;
   letter-spacing: -0.03rem;
-  color: #595959;
-}
-.case-text p {
-  width: 96%;
-  font-size: 1.05rem;
-  line-height: 1.25rem;
-  margin: 0.7vw auto 0.5vw auto;
-  letter-spacing: -0.03rem;
-  color: #595959;
+  color: #7f7f7f;
 }
 .case-text img {
-  margin-bottom: 0.5vw;
+  margin-bottom: 25vw;
 }
 .previous {
   display: block;
