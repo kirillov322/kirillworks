@@ -246,11 +246,6 @@ h1 {
     line-height: 1.55rem;
     letter-spacing: -0.02rem;
 }
-  .case-columns p {
-    font-size: 1rem;
-    line-height: 1.25rem;
-    letter-spacing: -0.02rem;
-} 
 }
 @media screen and (max-width: 700px) {
   .first {
@@ -381,7 +376,19 @@ h2 {
   letter-spacing: -0.05rem;
   margin: 10vw auto auto auto;
 }
-
+@media screen and (max-width: 700px) {
+  .caption {
+    font-size: 1rem;
+    line-height: 1.35rem;
+    font-weight: 300;
+    margin: auto auto 0.2vw auto;
+  }
+  .case-columns p {
+    font-size: 1rem;
+    line-height: 1.35rem;
+    font-weight: 300;
+  }
+}
 /*link*/
 .card-link:hover h5 {
   color: black;
