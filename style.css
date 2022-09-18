@@ -353,7 +353,7 @@ video {
 .caption {
   font-size: 1rem;
   line-height: 1.25rem;
-  margin: 0.6vw auto 2vw auto;
+  margin: 0.5vw auto 2vw auto;
   letter-spacing: -0.01rem;
   color: #999999;
 }
