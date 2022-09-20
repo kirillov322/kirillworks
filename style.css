@@ -119,9 +119,14 @@ a:hover {
     height: 85vw;
     margin-bottom: 4px;
   }
-
-/*main*/
 }
+@media screen and (min-width: 2045px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/*main*/
 .project-1 {
   position: relative;
   max-width: 50%;
@@ -134,6 +139,7 @@ a:hover {
 }
 img {
   max-width: 100%;
+  height: auto;
   margin-bottom: 7px;
 }
 h5 {
