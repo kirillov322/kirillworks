@@ -188,13 +188,12 @@ h4 {
   margin: 30vh auto 28vh auto;
 }
 h1 {
-  font-size: 3.075rem;
+  font-size: 3.875rem;
   font-weight: 600;
   line-height: 3.875rem;
   letter-spacing: -0.075rem;
   color: black;
   margin: auto;
-  text-transform: uppercase;
 }
 .info {
   font-size: 1.125rem;
@@ -352,7 +351,7 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .caption {
     font-size: 1rem;
