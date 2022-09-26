@@ -188,12 +188,13 @@ h4 {
   margin: 30vh auto 28vh auto;
 }
 h1 {
-  font-size: 3.875rem;
+  font-size: 3.075rem;
   font-weight: 600;
   line-height: 3.875rem;
-  letter-spacing: -0.125rem;
+  letter-spacing: -0.075rem;
   color: black;
   margin: auto;
+  text-transform: uppercase;
 }
 .info {
   font-size: 1.125rem;
@@ -219,31 +220,6 @@ h1 {
   color: #2e2e2e;
   font-weight: 400;
 }
-/*@media screen and (max-width: 1025px), (max-height: 680px) {
-  h1 {
-  font-size: 3.775rem;
-  font-weight: 600;
-  line-height: 3.775rem;
-  letter-spacing: -0.1rem;
-  color: black;
-  }
-  .header h1 {
-    max-width: 500px;
-  }
-  .info {
-    font-size: 1.35rem;
-    line-height: 1.82rem;
-    letter-spacing: -0.03rem;
-    margin: 24px auto 32px auto;
-    width: 660px;
-  }
-  .formal {
-    max-width: 510px;
-    font-size: 1.05rem;
-    line-height: 1.55rem;
-    letter-spacing: -0.02rem;
-}
-}*/
 @media screen and (max-width: 1022px) {
   .first {
     display: block;
@@ -260,7 +236,7 @@ h1 {
     margin: 18vh auto 20vh auto;
   } 
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 2.5rem;
     letter-spacing: -0.1rem;
@@ -292,9 +268,6 @@ h1 {
     display: block;
     margin: auto;
   }
-  /*.case {
-    padding-bottom: 2vw;
-  }*/
   .case-columns {
     display: flex;
     flex-direction: column;
@@ -377,7 +350,10 @@ h2 {
   letter-spacing: -0.05rem;
   margin: 10vw auto auto auto;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
   .caption {
     font-size: 1rem;
     line-height: 1.25rem;
