@@ -374,13 +374,13 @@ h2 {
   .case-columns {
     display: flex;
     width: 96%;
-    margin: 4vw auto;
+    margin: 5vw auto;
   }
   .case-columns-1 {
-    margin: auto auto 4vw auto;
+    margin: auto auto 5vw auto;
   }
   .case {
-    margin: 4vw auto;
+    margin: 5vw auto;
   }
 }
 /*link*/
