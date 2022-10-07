@@ -147,7 +147,6 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 7px;
 }
 h5 {
   font-size: 1.2rem;
@@ -393,4 +392,134 @@ h2 {
     color: #aaaaaa;
     transition-duration: 300ms;
     animation-timing-function: ease-in-out;
+}
+/*about*/
+.about-first {
+  width: 96%;
+  display: flex;
+  margin: auto
+}
+.about-photo {
+  display: block;
+  max-width: 30%;
+  padding-right: 40px;
+  line-height: 0px;
+}
+.about-header {
+  display: block;
+  max-width: 70%;
+  margin: auto;
+}
+.about-header h1 {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+}
+.about-text {
+  width: 96%;
+  display: block;
+  margin: auto;
+  padding-top: 16px;
+}
+.about-info {
+  max-width: 70%;
+  margin: auto auto auto 30%;
+  padding-left: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  color: #2e2e2e;
+  letter-spacing: -0.03rem;
+  font-weight: 400;
+}
+.about-formal {
+  max-width: 70%;
+  margin: auto auto auto 30%;
+  padding-left: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  color: #636363;
+  letter-spacing: -0.03rem;
+  font-weight: 400;
+}
+.formal-grey {
+  max-width: 70%;
+  margin: auto auto auto 30%;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 4px;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-weight: 500;
+  color: #636363;
+  letter-spacing: -0.03rem;
+}
+.intext-link {
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  color: #636363;
+  letter-spacing: -0.03rem;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 0.1rem;
+}
+@media screen and (max-width: 1022px) {
+  .about-header h1 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .about-first {
+    display: flex;
+    margin: auto;
+    width: 96%;
+  }
+  .about-photo {
+    max-width: 40%;
+    padding-right: 24px;
+  }
+  .about-header {
+    display: block;
+    margin: auto;
+  }
+  .about-header h1 {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+  .about-info, .about-formal, .formal-grey {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-first {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    width: 96%;
+  }
+  .about-photo {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-bottom: 24px;
+  }
+  .about-header {
+    display: block;
+    max-width: 100%;
+    margin: 18vh auto 20vh auto;
+  }
+  .about-header h1 {
+    text-align: center;
+    width: 300px;
+    margin: 0%;
+  }
+  .about-info, .about-formal, .formal-grey {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 0px;
+  }
+  .about-text {
+    padding-top: 0px;
+  }
 }
