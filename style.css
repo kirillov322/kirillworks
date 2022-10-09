@@ -494,20 +494,26 @@ h2 {
 }
 @media screen and (max-width: 750px) {
   .about-first {
-    display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: auto;
     width: 96%;
   }
   .about-photo {
+    display: block;
     max-width: 100%;
     padding-right: 0px;
     padding-bottom: 24px;
+    order: 1;
+  }
+  .about-text {
+    padding-top: 0px;
   }
   .about-header {
     display: block;
     max-width: 100%;
-    margin: 18vh auto 20vh auto;
+    margin: 18vh auto 18vh auto;
+    padding-bottom: 60px;
+    order: 0;
   }
   .about-header h1 {
     text-align: center;
@@ -518,8 +524,5 @@ h2 {
     max-width: 100%;
     margin: auto;
     padding-left: 0px;
-  }
-  .about-text {
-    padding-top: 0px;
   }
 }
