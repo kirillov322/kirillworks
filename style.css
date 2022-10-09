@@ -462,6 +462,9 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 0.1rem;
 }
+.about-photo-mobile {
+  display: none;
+}
 @media screen and (max-width: 1022px) {
   .about-header h1 {
     width: 400px;
@@ -499,11 +502,13 @@ h2 {
     width: 96%;
   }
   .about-photo {
+    display: none;
+  }
+  .about-photo-mobile {
     display: block;
-    max-width: 100%;
-    padding-right: 0px;
-    padding-bottom: 24px;
-    order: 1;
+    max-width: 96%;
+    margin: auto;
+    padding-top: 32px;
   }
   .about-text {
     padding-top: 0px;
@@ -511,9 +516,9 @@ h2 {
   .about-header {
     display: block;
     max-width: 100%;
-    margin: 18vh auto 18vh auto;
-    padding-bottom: 60px;
+    margin: 18vh auto 20vh auto;
     order: 0;
+    padding-bottom: 18px;
   }
   .about-header h1 {
     text-align: center;
