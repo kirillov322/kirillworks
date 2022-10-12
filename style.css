@@ -186,7 +186,7 @@ h4 {
 .first {
   max-height: 75vh;
   width: 96%;
-  margin: auto auto 40px auto;
+  margin: auto auto 24px auto;
 }
 .header h1 {
   max-width: 600px;
@@ -261,7 +261,7 @@ h1 {
   .formal {
     font-size: 1.125rem;
     line-height: 1.5625rem;
-    margin: auto auto 64px auto;
+    margin: auto auto 48px auto;
     text-align: left;
     max-width: 100%;
     min-width: 100%;
@@ -337,8 +337,8 @@ video {
 .caption {
   font-size: 1rem;
   line-height: 1.25rem;
-  margin: 0.5vw auto 2vw auto;
-  letter-spacing: -0.01rem;
+  margin: 0.5vw auto auto auto;
+  letter-spacing: -0.02rem;
   color: #999999;
 }
 .case-text img {
