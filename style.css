@@ -65,7 +65,8 @@ a:hover {
   .project-1 img, .project-2 img {
     position: relative;
     height: 456px;
-    object-fit:cover;
+    -o-object-fit:cover;
+       object-fit:cover;
     margin-bottom: 5px;
   }
   .project-1 h5, .project-1 .work-type, .project-2 h5, .project-2 .work-type {
@@ -385,12 +386,14 @@ h2 {
 .card-link:hover h5 {
   color: black;
   transition-duration: 300ms;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
   }
 .card-link:hover .work-type {
     color: #aaaaaa;
     transition-duration: 300ms;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 /*about*/
 .about-first {
