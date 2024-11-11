@@ -433,6 +433,7 @@ h2 {
   color: #2e2e2e;
   letter-spacing: -0.03rem;
   font-weight: 400;
+  margin-bottom: 0.5rem
 }
 .about-formal {
   max-width: 70%;
@@ -497,6 +498,9 @@ h2 {
     margin: auto;
     padding-left: 0px;
   }
+  .about-info {
+    margin-bottom: 0.5rem
+  }
 }
 @media screen and (max-width: 750px) {
   .about-first {
@@ -532,5 +536,8 @@ h2 {
     max-width: 100%;
     margin: auto;
     padding-left: 0px;
+  }
+  .about-info {
+    margin-bottom: 0.5rem
   }
 }
